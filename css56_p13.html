@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Title of the page</title>
+		<style type="text/css">
+			body {
+				background-color: white;
+				font-family: verdana, sans-serif;
+			}
+			
+			div {
+				border: 1px solid darkblue;
+				margin: 10px;
+				padding: 10px;				
+				width: 400px;
+				height: 40%;
+			}
+			
+			div p {
+				text-align: center;
+			}
+			
+			div table, div td, div th {
+				border: 1px solid darkblue;
+			}
+			
+			#header {
+				background-image: url('./GWVfL.jpg');
+				display:block;
+				clear: both;			
+			}
+			
+			.section {
+				float: left;				
+			}
+			
+			.footer {
+				display:block;
+				clear: both;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<p>This is a text paragraph!</p>
+		</div>
+		<div class="section">
+			<p>This is a section of the page</p>
+			
+			<br />
+			<code>cellspacing="0" cellpadding="10"</code>
+			<table cellspacing="0" cellpadding="10">
+				<tr>
+					<th>Header Column 1</th>
+					<th>Header Column 2</th>
+				<tr>
+					<td>Row 1 - Cell 1</td>
+					<td>Row 1 - Cell 2</td>
+				</tr>
+				<tr>
+					<td>Row 2 - Cell 1</td>
+					<td>Row 2 - Cell 2</td>
+				</tr>
+			</table>
+			<br />			
+		</div>
+		<div class="section"></div>
+		<p class="footer"> this text is not aligned centrally because &lt;p&gt; is not inside a &lt;div&gt;
+	</body>
+</html>
